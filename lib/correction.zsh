@@ -7,7 +7,10 @@ if [[ "$ENABLE_CORRECTION" == "true" ]]; then
   alias mkdir='nocorrect mkdir'
   alias mv='nocorrect mv'
   alias mysql='nocorrect mysql'
+  alias vim='nocorrect vim'
+  alias ack='nocorrect ack'
   alias sudo='nocorrect sudo'
+  alias git='nocorrect git'
 
   setopt correct_all
 fi
